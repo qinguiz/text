@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>offsetParent</title>
+	<style>
+		div{ width: 100px; height: 100px; background: yellow; position: absolute; }
+	</style>
+	<script src="jquery-3.1.0.min.js"></script>
+	<script>
+		$(function(){
+			$('div').mousedown(function(ev){
+				var X = ev.pageX - $(this).offset().left;
+				var Y = ev.pageY - $(this).offset().top;
+
+				$(document).mousemove(function(ev){
+					$('div').css('left', ev.pageX - X);
+					$('div').css('top', ev.pageY - Y);
+				})
+				$(document).mouseup(function(ev){
+					$(document).off();
+				})
+			})
+		})
+	</script>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
