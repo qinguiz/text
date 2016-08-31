@@ -3,9 +3,42 @@
 <head>
 	<meta charset="UTF-8">
 	<title>弹出窗口</title>
+	<style>
+		*{ margin: 0; padding: 0; }
+		#login{ width: 270px; height: 270px; border: 1px solid black; position: relative;}
+		#login input{ margin: 20px; }
+		#close{ position: absolute; top: 0; right: 0; cursor: pointer; }
+	</style>
 	<script src="jquery-3.1.0.min.js"></script>
+	<script>
+		$(function(){
+			var oBtn = $('#btn');
+			oBtn.click(function(){
+				var oLogin = $('<div id="login">登录：<input type="text"> <br><br>密码：<input type="password"><div id="close">X</div></div>');
+
+				$('body').append(oLogin);
+
+				oLogin.css('left',($(window).width() - oLogin.outerWidth())/2);
+				oLogin.css('top',($(window).height() -  oLogin.outerHeight())/2);
+
+				$('#close').click(function(){
+					oLogin.remove();
+				})	
+				$(window).on('scroll resize',function(){
+					oLogin.css('left',($(window).width() - oLogin.outerWidth())/2);
+					oLogin.css('top',($(window).height() - oLogin.outerHeight())/2 + 
+						$(window).scrollTop());
+				})
+			})
+		})
+	</script>
 </head>
-<body>
-	
+<body style="height:2000px;">
+	<input id="btn" type="button" value="show">
+	<!-- <div id="login">
+		登录：<input type="text"> <br><br>
+		密码：<input type="password">
+		<div id="close">X</div>
+	</div> -->
 </body>
 </html>
