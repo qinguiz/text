@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>距离</title>
+	<style>
+		*{margin: 0; padding: 0;}
+		#div1{ width: 200px; height: 200px; background: black; margin: 20px; display: inline-block; }
+		#div2{ width: 100px; height: 100px; background: yellow; margin: 30px; position: absolute; left: 10px;  }
+	</style>
+	<script src="jquery-3.1.0.min.js"></script>
+	<script>
+		$(function(){
+			// alert($('#div2').offset().left)  获取当前元素距离浏览器窗口的距离
+			// alert($('#div2').position().left); 把当前元素添加定位，获取定位后的距离
+		})
+	</script>
+
+</head>
+<body>
+	<div id="div1">
+		<div id="div2"></div>
+	</div>
+</body>
+</html>
