@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hover</title>
+	<style>
+		#div1{ width: 100px; height: 100px; background: yellow; }
+		#div2{ width: 100px; height: 100px; background: black; }
+	</style>
+	<script src="jquery-3.1.0.min.js"></script>
+	<script>
+		$(function(){					
+			$('#div1').hover(function(){		//参数一：鼠标移入  参数二：鼠标移出
+				$(this).css('background','black');
+				// $('#div2').hide(1000); 隐藏（时间）
+				// $('#div2').fadeOut(); //淡出
+				$('#div2').slideUp(); //向上卷起
+			},function(){
+				$(this).css('background','yellow');
+				// $('#div2').show(1000); 显示（时间）
+				// $('#div2').fadeIn(); //淡入
+				$('#div2').slideDown();	//向下展开
+			}) 				
+
+		})
+	</script>
+</head>
+<body>
+	<div id="div1"></div>
+	<div id="div2"></div>
+</body>
+</html>
