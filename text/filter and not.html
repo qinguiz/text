@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>filter and  not</title>
+    <script src="jquery-3.1.0.min.js"></script>
+    <script>
+        $(function(){
+//            $('div').filter('.box').css('background','red'); 
+            
+            $('div').not('.box').css('background','red');
+        })
+    </script>
+</head>
+<body>
+    <div>a</div>
+    <div class="box">a</div>
+</body>
+</html>

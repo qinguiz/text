@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>链式操作</title>
+    <script src="jquery-3.1.0.min.js"></script>
+    <script>
+        $(function(){
+            /*var oDiv = $('#div1');
+            oDiv.html('Hello');
+            oDiv.css('background','yellow');
+            oDiv.click(function(){
+                alert('123');
+            })*/
+
+            $('#div1').html('Hello').css('background','yellow').click(function(){
+                alert('123');
+            })
+        })
+    </script>
+</head>
+<body>
+    <div id="div1"></div>
+</body>
+</html>

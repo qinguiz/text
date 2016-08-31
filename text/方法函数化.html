@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>方法函数化</title>
+    <script src="jquery-3.1.0.min.js"></script>
+    <script>
+        /*window.onload = function(){
+            var oDiv = document.getElementById('div1');
+            oDiv.onclick = function(){
+                alert(oDiv.innerHTML);
+            }
+        }*/
+
+        $(function(){
+            oDiv = $('#div1');
+            oDiv.click(function(){
+//                alert(oDiv.html());
+                alert($(this).html())
+            });
+            $('ul').children().eq(2).css('background','red');
+        })
+    </script>
+</head>
+<body>
+    <div id="div1">div</div>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+</html>
