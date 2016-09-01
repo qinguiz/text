@@ -12,7 +12,7 @@ body{ font-family: '微软雅黑' }
 /* public */
 header{ width: 1200px; height: 87px; margin: 0 auto; padding-top: 24px; position: relative;  }
 #scroll{ width: 1348px; height: 83px; border-bottom: 1px solid #f2f2f2; }
-#main{ width: 1348px; height: 1042px; }
+#main{ width: 1146px; height: 1042px; margin: 0 auto; position: relative; }
 footer .wf{ width: 1348px; height: 437px; background: #edf7ff; }
 #lyzx{ height: 429px; width: 1348px; }
 #lyzx .top{ height: 63px; width: 1150px; }
@@ -31,6 +31,30 @@ header ul li.last:after{ display: none; }
 header ul li a{ color: #2a2c27; font-size: 19px; }
 header .tel{ position: absolute; top: 24px; right: 0; }
 
-#scroll .sc{ width: 706px; height: 83px; line-height: 83px; }
-#scroll .sc h2{ width: 60px; height: 33px; border-right: 1px dotted #217ab4; }
+#scroll .sc{ width: 706px; height: 83px; margin: 0 auto; padding-top: 25px; position: relative; }
+#scroll .sc h2{ width: 60px; height: 33px; border-right: 1px dotted #217ab4; position: relative;}
+#scroll .sc h2 strong{ display: block; font-size: 12px; color: #0784d4; position: absolute;
+ top: 0px; left:8px;  }
+#scroll .sc h2 span{ display: block; font-size: 12px; color: #333; position: absolute;
+top: 12px;}
+#scroll .sc .content{ position: absolute; height: 20px; top: 33px; right: 0; overflow: hidden; }
+#scroll .sc .content ul li{ font-size: 14px; color: #666; }
+#scroll .sc .content ul li span,strong{ color: #0784d4; font-size: 14px; margin-right: 10px; }
+#scroll .sc .content ul li em { color: #666; font-size: 14px;  }
+#scroll .sc .content ul li a{ color: #0784d4; font-size: 14px;}
+
+#main h1 { padding-top: 35px; text-align: center; }
+#main h1 strong{ display: block; font-size: 40px; color: #0784d4; }
+#main h1 span{ display: block; position: relative; left: -3px; font-weight: normal; color: #666; font-size: 20px; }
+#main .one{ height: 202px; border-bottom: 1px solid #f2f2f2; }
+#main .one img{ float: left; }
+#main .one .left{ width: 640px; height: 202px; position: absolute;
+top: 109px;left: 125px; }
+#main .one .left .sfg{ display: block; position: absolute; top: 58px; left: 13px; z-index: 2;
+font-family: '微软雅黑'; font-size: 16px;}
+#main .one .left .hb{ display: block; position: absolute; top: 130px; left: 13px; z-index: 2;
+font-family: '微软雅黑'; font-size: 16px; word-spacing: 5px;}
+#sfg{ position: absolute; top: 44px; left: 0; width: 485px; height: 50px; border:1px solid #cccccc; text-indent: 4em; color: #0784d4; font-size: 18px; font-family: '微软雅黑'  }
+#hb{ position: absolute; top: 116px; left: 0; width: 485px; height: 50px; border:1px solid #cccccc; text-indent: 76px; color: #0784d4; font-size: 18px; font-family: '微软雅黑'  }
+#main .one .right{ float: right; }
 /* end layout */
