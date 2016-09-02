@@ -13,7 +13,7 @@ body{ font-family: '微软雅黑' }
 header{ width: 1200px; height: 87px; margin: 0 auto; padding-top: 24px; position: relative;  }
 #scroll{ width: 1348px; height: 83px; border-bottom: 1px solid #f2f2f2; }
 #main{ width: 1146px; height: 1042px; margin: 0 auto; position: relative; }
-footer .wf{ width: 1348px; height: 437px; background: #edf7ff; }
+footer .wf{ width: 1148px; height: 437px; padding: 0 100px; background: #edf7ff; position: relative; }
 #lyzx{ height: 429px; width: 1348px; }
 #lyzx .top{ height: 63px; width: 1150px; }
 #rmzx{ width: 1146px; height: 182px; }
@@ -99,4 +99,38 @@ border-radius: 6px; position: absolute; top: 51px; font-family: '微软雅黑'; 
 #main .three .content .right ul{ width: 400px; float: right; }
 #main .three .content .right ul li { display: inline-block; }
 #main .three .content .right ul li img{width: 32px; height: 32px;}
+
+footer .wf .left{ width: 553px; height: 368px; position: absolute; top: 54px; }
+footer .wf .left h2{ font-size: 26px; color: #5b5255; }
+footer .wf .left ul{ position: absolute; top: 50px; }
+footer .wf .left ul li{ height: 67px; width: 553px; }
+footer .wf .left ul li a{ color: #057bdb; }
+footer .wf .left ul li span{ color: #f18700; font-weight: bold; font-size: 18px; 
+ 	display: inline-block; position: absolute; right: 95px; }
+footer .wf .left ul li span b{ font-size: 14px; color: #666; font-weight: normal; }
+footer .wf .left ul li em{ display: inline-block; width: 68px; height: 24px; border-radius: 4px; background: #017cd9;
+font-size: 14px; font-style: normal; text-align: center; line-height: 24px; color: white; position: absolute;
+right: 20px; }
+
+footer .wf .right{ width: 553px; height: 368px; position: absolute; top: 54px; right: 50px; }
+footer .wf .right h2{ font-size: 26px; color: #5b5255; }
+footer .wf .right ul{ position: absolute; top: 50px; }
+footer .wf .right ul li{ height: 67px; width: 553px; }
+footer .wf .right ul li a{ color: #057bdb; }
+footer .wf .right ul li span{ color: #f18700; font-weight: bold; font-size: 18px; 
+ 	display: inline-block; position: absolute; right: 95px; }
+footer .wf .right ul li span b{ font-size: 14px; color: #666; font-weight: normal; }
+footer .wf .right ul li em{ display: inline-block; width: 68px; height: 24px; border-radius: 4px; background: #017cd9;
+font-size: 14px; font-style: normal; text-align: center; line-height: 24px; color: white; position: absolute;
+right: 20px; }
+
+#rmtj{ width: 1150px; height: 182px; margin: 0 auto; padding-bottom: 100px;  }
+#rmtj h3{ text-align: center; font-size: 14px; color: #666; padding: 50px 0 30px;}
+#rmtj li{ display: inline-block; }
+
+#list{ background: #f4f4f4; height: 234px; font-size: 12px; }
+#list .content .right{ width: 930px; height: 234px; color: #666; }
+#list .content .right dl{ display: inline-block; margin: 30px 50px; }
+#list .content .right dl dt{ font-size: 16px; font-weight: bold;  }
+#list .content .right dl dd{ height: 20px; line-height: 20px; }
 /* end layout */
