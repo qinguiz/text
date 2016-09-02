@@ -79,8 +79,8 @@
 					</div>
 				</div>
 				<div class="right">
+					<span class="addr">目的地 |</span>
 					<select name="addr" id="addr">
-					<span class="addr"></span>
 						<option value="香港中港城">香港中港城</option>
 						<option value="香港中港城">香港中港城</option>
 						<option value="香港中港城">香港中港城</option>
@@ -94,17 +94,17 @@
 					<form action="#">
 						<div class="left">
 							<div class="cfrq">
-								出发日期:
+								出发日期: 
 								<input type="datetime-local">
 							</div>
 							<div class="xzhb">
-								选择航班:
-								<input type="radio" value="不限"> 不限 
+								选择航班: 
+								<input type="radio" value="不限"> <span>不限</span> 
 							</div>
 							<div class="khsj">
 								开航时间：
 								<div class="time">
-									<a>10:45</a>
+									<a class="active">10:45</a>
 									<a>11:45</a>
 									<a>17:45</a>
 									<a>18:45</a>
@@ -112,65 +112,82 @@
 							</div>
 							<div class="ccdj">
 								船舱等级：
-								<input type="radio"> 普通位
+								<input type="radio"> <span>普通位 </span>
 							</div>
 							<div class="ckrs">
 							乘客人数：
 								<div class="cr">
-									成人
-									<section>
+									<span>成人</span> 
+									<select>
 										<option value="1">1</option>
 										<option value="2">2</option>
 										<option value="3">3</option>
 										<option value="4">4</option>
 										<option value="5">5</option>
 										<option value="6">6</option>
-									</section>
-									<span>HKD 158/位</span>
+									</select>
+									<em>HKD 158/位</em>
 								</div>
 							</div>
 						</div>
-						<div class="right">
-							<ul>
-								<li>
-									回程日期：
-									<input type="datetime-local">
-								</li>
-								<li>
-									选择航班：
-								</li>
-								<li>
-									开航时间
-								</li>
-								<li>
-									船舱等级
-								</li>
-								<li>
-									乘客人数：
-								</li>
-							</ul>
-						</div>
+						<!-- <div class="right">
+							<div class="cfrq">
+								出发日期: 
+								<input type="datetime-local">
+							</div>
+							<div class="xzhb">
+								选择航班: 
+								<input type="radio" value="不限"> <span>不限</span> 
+							</div>
+							<div class="khsj">
+								开航时间：
+								<div class="time">
+									<a class="active">10:45</a>
+									<a>11:45</a>
+									<a>17:45</a>
+									<a>18:45</a>
+								</div>
+							</div>
+							<div class="ccdj">
+								船舱等级：
+								<input type="radio"> <span>普通位 </span>
+							</div>
+							<div class="ckrs">
+							乘客人数：
+								<div class="cr">
+									<span>成人</span> 
+									<select>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+									</select>
+									<em>HKD 158/位</em>
+								</div>
+							</div>
+						</div> -->
 					</form>
 				</div>
 			</div>
 			<div class="three">
 				<img src="img/s3.png" alt="">
 				<div class="content">
-					<div class="right">
+					<div class="left">
 						<h2>总价：<span>HKD 158</span> <em>(含服務費支付手續費)</em></h2>
 						<button>立即预订</button>
 					</div>
-					<div class="left">
+					<div class="right">
 						<div>
 							分享到：
 							<ul>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
+								<li> <img src="img/facebook.jpg" alt=""></li>
+								<li><img src="img/t.jpg" alt=""></li>
+								<li><img src="img/w.jpg" alt=""></li>
+								<li><img src="img/p.jpg" alt=""></li>
+								<li><img src="img/e.jpg" alt=""></li>
+								<li><img src="img/+.jpg" alt=""></li>
 							</ul>
 						</div>
 					</div>
@@ -228,29 +245,6 @@
 				</li>
 		</div>
 		</div>
-		<div id="lyzx">
-			<div class="lyzx">
-				<div class="top">旅游资讯: </div>
-				<ul>
-					<li><a href="#">香港</a></li>
-					<li><a href="#">澳門</a></li>
-					<li><a href="#">台灣 </a></li>
-					<li><a href="#">曼谷</a></li>
-					<li><a href="#">清邁府</a></li>
-					<li><a href="#">北欖府</a></li>
-					<li><a href="#">芭堤雅</a></li>
-					<li><a href="#">布吉島</a></li>
-					<li><a href="#">新加坡</a></li>
-					<li><a href="#">澳大利亞</a></li>
-					<li><a href="#">深圳</a></li>
-					<li><a href="#">珠海</a></li>
-					<li><a href="#">廣州</a></li>
-					<li><a href="#">中山</a></li>
-					<li><a href="#">東莞</a></li>
-					<li><a href="#">佛山</a></li>
-					<li><a href="#">清遠</a></li>
-				</ul>
-			</div>
 
 		</div>
 		<div id="rmzx">

@@ -31,6 +31,9 @@ header ul li.last:after{ display: none; }
 header ul li a{ color: #2a2c27; font-size: 19px; }
 header .tel{ position: absolute; top: 24px; right: 0; }
 
+#banner{ width: 1348px; }
+#banner img{ width: 1348px; }
+
 #scroll .sc{ width: 706px; height: 83px; margin: 0 auto; padding-top: 25px; position: relative; }
 #scroll .sc h2{ width: 60px; height: 33px; border-right: 1px dotted #217ab4; position: relative;}
 #scroll .sc h2 strong{ display: block; font-size: 12px; color: #0784d4; position: absolute;
@@ -46,15 +49,54 @@ top: 12px;}
 #main h1 { padding-top: 35px; text-align: center; }
 #main h1 strong{ display: block; font-size: 40px; color: #0784d4; }
 #main h1 span{ display: block; position: relative; left: -3px; font-weight: normal; color: #666; font-size: 20px; }
-#main .one{ height: 202px; border-bottom: 1px solid #f2f2f2; }
+#main .one{ height: 202px; border-bottom: 1px solid #f2f2f2; position: relative;}
 #main .one img{ float: left; }
 #main .one .left{ width: 640px; height: 202px; position: absolute;
-top: 109px;left: 125px; }
+top: 0px;left: 125px; }
 #main .one .left .sfg{ display: block; position: absolute; top: 58px; left: 13px; z-index: 2;
 font-family: '微软雅黑'; font-size: 16px;}
 #main .one .left .hb{ display: block; position: absolute; top: 130px; left: 13px; z-index: 2;
 font-family: '微软雅黑'; font-size: 16px; word-spacing: 5px;}
 #sfg{ position: absolute; top: 44px; left: 0; width: 485px; height: 50px; border:1px solid #cccccc; text-indent: 4em; color: #0784d4; font-size: 18px; font-family: '微软雅黑'  }
 #hb{ position: absolute; top: 116px; left: 0; width: 485px; height: 50px; border:1px solid #cccccc; text-indent: 76px; color: #0784d4; font-size: 18px; font-family: '微软雅黑'  }
-#main .one .right{ float: right; }
+#addr{ width: 485px; height: 50px; border:1px solid #cccccc; text-indent: 4em; color: #0784d4; 
+ position: absolute;;top: 44px; left: 650px;	font-size: 18px; font-family: '微软雅黑' ; }
+#main .one .right .addr{ display: block; position: absolute; top: 58px; left: 662px; z-index: 2;  }
+
+#main .two{ height: 445px; border-bottom: 1px solid #f2f2f2; position: relative;}
+#main .two img{ position: absolute; top: 33px; left: 0;}
+#main .two .left{ width: 515px; height: 294px; position: absolute; left: 126px; font-family: '微软雅黑'; font-weight: bold; }
+#main .two .cfrq{ position: absolute; top: 45px;  }
+#main .two .cfrq input{ width: 340px; height: 38px; border:1px solid #cccccc; font-size: 14px; 
+	color: #666; }
+#main .two .xzhb{ position: absolute; top: 110px; }
+#main .two .xzhb span{ font-size: 14px; font-weight: normal; }
+#main .two .khsj{ position: absolute; top: 150px; width: 350px; line-height: 34px;  }
+#main .two .khsj .time { float: right; }
+#main .two .khsj .time a{ display: block; width: 58px; height: 34px; border: 1px solid #f2f2f2; 
+	display: inline-block; text-align: center; line-height: 34px; }
+#main .two .khsj .time a.active{ border: 1px solid #f18200; }
+#main .two .ccdj{ position: absolute; top: 210px;  }
+#main .two .ccdj span{ font-size: 14px; font-weight: normal; }
+#main .two .ckrs{ position: absolute; top: 260px; width: 440px; height: 34px; line-height: 34px; }
+#main .two .ckrs span{ font-size: 14px; font-weight: normal; }
+#main .two .ckrs .cr{ width: 355px; float: right;  }
+#main .two .ckrs select{ width: 72px; height: 33px; border: 1px solid #f2f2f2; }
+#main .two .ckrs .cr em{ color: #ff8700; font-style: normal; }
+
+/*#main .two .right{ position: absolute; width: 515px; height: 294px; left: 650px; font-family: '微软雅黑'; font-weight: bold; color: #999; }*/
+
+#main .three { height: 285px; position: relative; padding-top: 33px;}
+#main .three .content .left{  position: absolute; top: 33px; left: 126px; width: 355px; height: 144px; }
+#main .three .content .left h2{ width: 355px; height: 84px; font-size: 18px; font-weight: normal;
+ }
+#main .three .content .left span{ color: #ff971e; font-weight: bold; font-size: 24px; }
+#main .three .content .left em{ font-weight: normal; font-size: 14px; font-style: normal; color: #999; }
+#main .three .content .left button{ width: 220px; height: 60px; background: #ff971e; color: white; border: none;
+border-radius: 6px; position: absolute; top: 51px; font-family: '微软雅黑'; font-size: 20px; }
+
+#main .three .content .right{ position: absolute; right: 0; top: 33px; linh width: 500px; height: 51px;}
+#main .three .content .right ul{ width: 400px; float: right; }
+#main .three .content .right ul li { display: inline-block; }
+#main .three .content .right ul li img{width: 32px; height: 32px;}
 /* end layout */
