@@ -18,7 +18,7 @@ footer .wf{ width: 1148px; height: 437px; padding: 0 100px; background: #edf7ff;
 #lyzx .top{ height: 63px; width: 1150px; }
 #rmzx{ width: 1146px; height: 182px; }
 #list{ height: 234px; padding: 0 76px; }
-footer .img{ width: 1348px; height: 53px; }
+footer .img{ width: 1348px; height: 80px; }
 footer .b-img{ height: 185px; }
 /* end public */
 
@@ -128,9 +128,25 @@ right: 20px; }
 #rmtj h3{ text-align: center; font-size: 14px; color: #666; padding: 50px 0 30px;}
 #rmtj li{ display: inline-block; }
 
+#list{ position: relative; }
 #list{ background: #f4f4f4; height: 234px; font-size: 12px; }
-#list .content .right{ width: 930px; height: 234px; color: #666; }
-#list .content .right dl{ display: inline-block; margin: 30px 50px; }
-#list .content .right dl dt{ font-size: 16px; font-weight: bold;  }
-#list .content .right dl dd{ height: 20px; line-height: 20px; }
+#list .content .left{height: 234px; color: #666; width: 800px;position: absolute; }
+#list .content .left dl{ display: inline-block; margin: 30px 30px; }
+#list .content .left dl dt{ font-size: 16px; font-weight: bold;  }
+#list .content .left dl dd{ height: 20px; line-height: 20px; }
+
+#list .content .right{ width: 246px; height: 200px;position: absolute; 
+top: 0; right: 100px; }
+#list .content .right .number { padding: 0 10px; height: 66px; border-bottom: 1px solid #f2f2f2; padding-top: 45px; }
+#list .content .right .number h2{ font-size: 22px; color: #ff8a09; }
+#list .content .right .number p{ font-size: 12px; color: #999; }
+#list .content .right .number p span{ color: #087fd9; }
+#list .content .right .submit .kszf{ width: 140px; height: 32px; background: #fe8905; border-radius: 4px;
+color: white; text-indent: 20px; line-height: 32px; font-size: 16px; font-weight: bold; position: relative;
+top: 20px; left: 10px; }
+#list .content .right .submit .kszf span{ background: white; display: inline-block; width: 40px; height: 26px;
+border-radius: 0 4px 4px 0; position: absolute;top: 3px; right: 4px; color: #ff8a00; text-indent: 14px; font-size: 18px; line-height: 26px;
+ }
+ fotter .img{ padding-bottom: 20px; }
+ footer .b-img p{  text-align: center; color: #999; }
 /* end layout */
